@@ -90,6 +90,10 @@ main : React Frontend
 Django : Django Backend
 ```
 
+```bash
+nima : Node.js Express - Backend
+```
+
 ---
 ## Creating an Admin Account
  
@@ -116,9 +120,9 @@ exit()
 
 
 ## Authors
-- **Rayane KHATIM** - React Frontend
+- **Rayane KHATIM** - React Frontend + Deployment
 - **Student B** - Django Backend
-- **Student B** - Node.js Backend + Deployment
+- **Student B** - Node.js Backend 
 
 
 
