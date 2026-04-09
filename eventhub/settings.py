@@ -60,6 +60,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://project-programmation-web.vercel.app',
 ]
 
 ROOT_URLCONF = 'eventhub.urls'
