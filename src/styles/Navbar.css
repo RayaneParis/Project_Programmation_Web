@@ -1,0 +1,101 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    height: 64px;
+    background: #fff;
+    border-bottom: 1px solid #e8e4f0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 48px;
+    text-decoration: none;
+}
+
+.navbar-logo {
+    width: 34px;
+    height: 34px;
+    background: linear-gradient(135deg, #667eaa 0%, #f093fb 50%, #f5576c 100%);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.navbar-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #667eaa, #f5576c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+}
+
+.nav-link {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #999;
+    text-decoration: none;
+    transition: color 0.2s, background 0.2s;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav-link:hover {
+    color: #1a1a2e;
+    background: #f7f4ff;
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #667eaa 0%, #f093fb 50%, #f5576c 100%);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+.navbar-user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar-username {
+    font-size: 0.875rem;
+    color: #999;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-logout {
+    background: none;
+    border: 1.5px solid #e8e4f0;
+    color: #999;
+    padding: 6px 16px;
+    border-radius: 16px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.navbar-logout:hover {
+    border-color: #f5576c;
+    color: #f5576c;
+}
