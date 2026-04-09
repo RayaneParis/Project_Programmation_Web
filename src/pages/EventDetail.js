@@ -192,7 +192,9 @@ const EventDetail = () => {
                     <div className="aside-card">
                         <h3>Capacity</h3>
                         <div className="aside-card">
-                            <div className="aside-fill-bar"><div style={{ width: `${fill}`, backgroundColor: color }} /></div>
+                            <div className="aside-fill-bar">
+                                <div style={{ width: `${fill}%` }} />
+                            </div>
                             <span>{fill}%</span>
                         </div>
                         <p className="aside-seats">{event.participant_count} / {event.capacity} places</p>
