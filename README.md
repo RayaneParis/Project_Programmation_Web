@@ -78,7 +78,17 @@ cd event-frontend
 npm install
 npm start
 ```
+---
 
+## Many branches
+
+```bash
+main = React Frontend
+```
+
+```bash
+Django = Django Backend
+```
 
 ---
 ## Creating an Admin Account
