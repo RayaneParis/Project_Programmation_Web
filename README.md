@@ -83,11 +83,11 @@ npm start
 ## Many branches
 
 ```bash
-main = React Frontend
+main : React Frontend
 ```
 
 ```bash
-Django = Django Backend
+Django : Django Backend
 ```
 
 ---
